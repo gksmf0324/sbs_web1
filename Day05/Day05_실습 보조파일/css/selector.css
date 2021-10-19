@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+
+* { 
+	/* 전체 선택자를 이용. 모든 선택자의 margin과 padding을 0으로 지정 */
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ccc;
+}
+
+header, footer {
+	/* header와 footer를 그룹으로 묶어서 동일한 스타일 적용 */
+	/* TODO 여기에 작성해보세요:) */
+}
+
+
+header h1 {
+	/* TODO 여기에 작성해보세요:) */
+}
+
+
+header ul {
+	/* TODO 여기에 작성해보세요:) */
+}
+
+header ul li {
+	/* TODO 여기에 작성해보세요:) */
+}
+
+header ul li a {
+	/* TODO 여기에 작성해보세요:) */
+}
+
+article {
+	/* TODO 여기에 작성해보세요:) */	
+}
+
+
+article section {
+	/* TODO 여기에 작성해보세요:) */
+}
+
+article aside {
+	/* TODO 여기에 작성해보세요:) */
+}
+
+section h2,
+aside h2 {
+	/* 그룹 선택자 이용하여 값 설정 */
+	/* TODO 여기에 작성해보세요:) */
+}
+
+section ul,
+aside ul {
+	/* TODO 여기에 작성해보세요:) */
+}
+
+
+footer {
+	/* TODO 여기에 작성해보세요:) */
+}
+
+
+.container {
+	/* TODO 여기에 작성해보세요:) */	
+}
+
+
+h1.logo {
+	/* TODO 여기에 작성해보세요:) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

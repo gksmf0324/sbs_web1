@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+
+table.first {
+	width: 100%;
+	border-collapse: collapse;		/* 이중실선(x), 테두리를 실선으로 적용 */
+}
+
+table.first th {
+	padding: 8px;
+	background-color: #bc1212;
+	color: #fff;
+	letter-spacing: 3px;
+}
+
+/* TODO 여기에 작성해보세요:) */
+table.first th:nth-child(2){
+	/letter-spacing: 45px;
+}
+
+table.first td {
+	padding: 10px;
+	text-align: center;
+}
+
+/* TODO 여기에 작성해보세요:) */
+table.first td:first-child{
+	width: 15%;
+	
+}
+
+/* TODO 여기에 작성해보세요:) */
+table :first td:first-child(2){
+	width: 65%;
+}
+
+
+/* TODO 여기에 작성해보세요:) */
+table :first td:last-child {
+	width: 20%;
+}
+
+
+/* TODO 여기에 작성해보세요:) */
+/* odd: 홀수, even: 짝수*/
+table.first tr:nth-child(odd){
+	background-color: #eee;
+}
+
+/* TODO 여기에 작성해보세요:) */
+table.first tr:nth-child(even){
+	background-color: #ffe8e9;
+}
+
+/* TODO 여기에 작성해보세요:) */
+table.first tr:hover ,table.first th:hover{
+	background-color: #9d9dff;
+}
+
+table.first td:hover{
+	background-color: khaki;
+}
+
+
+/* TODO 여기에 작성해보세요:) */
+
+table.second {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.second th {
+	padding: 8px;
+	background-color: #ff8000;
+	color: #fff;
+	letter-spacing: 3px;
+}
+
+/* TODO 여기에 작성해보세요:) */
+table.second th:nth-of-type(2){
+	letter-spacing: 45px;
+}
+
+
+table.second td {
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+}
+
+table.second td:first-of-type {
+	width: 15%;
+}
+
+/* TODO 여기에 작성해보세요:) */
+table.second td:nth-of-type(2){
+	text-align: left;
+	width: 65%;
+
+}
+
+
+/* TODO 여기에 작성해보세요:) */
+table.second td:last-of-type{
+	width: 20%;
+}
+
+
+/* TODO 여기에 작성해보세요:) */
+table.second tr:nth-of-type(odd){
+	background-color: #aaa;
+}
+
+/* TODO 여기에 작성해보세요:) */
+table.second tr:nth-of-type(even){
+	background-color: rgb(185, 145, 145);
+}
+/* TODO 여기에 작성해보세요:) */
+table.second tr:hover{
+	background-color: orange;
+}
+
+
+section.part1 div,
+section.part2 div {
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin: 2px;
+}
+
+/* part1 : nth-of-type */
+/* TODO 여기에 작성해보세요:) */
+
+/* div 의 첫번째 요소 선택*/
+section.part1 div:first-of-type{
+	background-color: skyblue;
+}
+
+/* div 의 마지막 요소 선택*/
+section.part1 div:last-of-type{
+	background-color: seagreen;
+}
+
+/* div 의 마지막에서 2번째 요소 선택*/
+section.part1 div:nth-last-of-type(2){
+	background-color: pink;
+}
+
+/* div 의 두번째 요소 선택*/
+section.part1 div:nth-of-type(2){
+	background-color: royalblue;
+}
+
+
+
+/*---------------------------------------*/
+
+
+/* part2 : nth-child */
+/* TODO 여기에 작성해보세요:) */
+
+/* div 의 첫번째 요소 선택*/
+section.part2 div:first-child{
+	background-color: skyblue;
+}
+
+/* div 의 마지막 요소 선택*/
+section.part2 div:last-child{
+	background-color: seagreen;
+}
+
+/* div 의 마지막에서 2번째 요소 선택*/
+section.part2 div:nth-last-child(2){
+	background-color: pink;
+}
+
+/* div 의 두번째 요소 선택*/
+section.part2 div:nth-child(2){
+	background-color: royalblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
