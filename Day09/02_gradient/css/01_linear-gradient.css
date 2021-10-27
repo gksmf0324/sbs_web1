@@ -1,0 +1,10 @@
+
+.box{
+    height: 200px;
+    margin: 50px;
+}
+
+.bottom{background-image: linear-gradient(to bottom,yellow,blue,green);}
+.top{background-image: linear-gradient(to top,yellow,green,orange);}
+.left{background-image: linear-gradient(to left,yellow,green,orange);}
+.right{background-image: linear-gradient(to right,yellow,green,orange);}
